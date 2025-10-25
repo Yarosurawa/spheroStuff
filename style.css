@@ -6,7 +6,6 @@ body {
 }
 
 #sphero {
-    transition: all 50ms ease;
     position: absolute;
     width: 20px;
     height: 20px;
@@ -14,4 +13,16 @@ body {
     background: #f1f1f1;
     left: calc(50% - 10px);
     top: calc(50% - 10px);
+}
+
+#sphero::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 10px;
+    left: 5px;
+    top: -2px;
+    height: 10px;
+    border-radius:90px;
+    background: #0008;
 }
