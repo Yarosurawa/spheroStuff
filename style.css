@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background: linear-gradient(30deg, #1f1f1f, #000);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#sphero {
+    transition: all 50ms ease;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+    background: #f1f1f1;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+}
